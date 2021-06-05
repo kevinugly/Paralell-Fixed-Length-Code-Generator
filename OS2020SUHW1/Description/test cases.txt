@@ -1,0 +1,104 @@
+--------------------------------
+TEST 1
+--------------------------------
+
+Input File:
+
+aaaeeiaaeeiiioouuuuuuuua
+
+
+CORRECT OUTPUT:
+
+Symbol: a, Frequency: 6, Code: 001
+Symbol: e, Frequency: 4, Code: 011
+Symbol: i, Frequency: 4, Code: 010
+Symbol: o, Frequency: 2, Code: 100
+Symbol: u, Frequency: 8, Code: 000
+
+--------------------------------
+TEST 2
+--------------------------------
+
+Input File:
+
+A friend function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.
+
+A friend can be a function, function template, or member function, or a class or class template, in which case the entire class and all of its members are friends.
+
+To declare a function as a friend of a class, precede the function prototype in the class definition with keyword friend as follows
+
+
+CORRECT OUTPUT:
+
+Symbol: A, Frequency: 2, Code: 11001
+Symbol: , Frequency: 94, Code: 00000
+Symbol: f, Frequency: 24, Code: 01010
+Symbol: r, Frequency: 27, Code: 01000
+Symbol: i, Frequency: 34, Code: 00101
+Symbol: e, Frequency: 52, Code: 00001
+Symbol: n, Frequency: 37, Code: 00011
+Symbol: d, Frequency: 18, Code: 01100
+Symbol: u, Frequency: 11, Code: 01111
+Symbol: c, Frequency: 26, Code: 01001
+Symbol: t, Frequency: 40, Code: 00010
+Symbol: o, Frequency: 32, Code: 00111
+Symbol: a, Frequency: 34, Code: 00110
+Symbol: l, Frequency: 18, Code: 01011
+Symbol: s, Frequency: 36, Code: 00100
+Symbol: h, Frequency: 15, Code: 01101
+Symbol: ', Frequency: 1, Code: 11101
+Symbol: p, Frequency: 12, Code: 01110
+Symbol: b, Frequency: 6, Code: 10001
+Symbol: g, Frequency: 2, Code: 11000
+Symbol: v, Frequency: 2, Code: 10111
+Symbol: m, Frequency: 10, Code: 10000
+Symbol: ., Frequency: 3, Code: 10110
+Symbol: E, Frequency: 1, Code: 11100
+Symbol: y, Frequency: 3, Code: 10101
+Symbol: ,, Frequency: 6, Code: 10010
+Symbol: <EOL>, Frequency: 4, Code: 10100
+Symbol: w, Frequency: 4, Code: 10011
+Symbol: T, Frequency: 1, Code: 11011
+Symbol: k, Frequency: 1, Code: 11010
+
+--------------------------------
+TEST 3
+--------------------------------
+
+Input File:
+
+In the encoding process, for example, the model outputs a codeword of a fixed length code such as ASCII code, if the input symbol has been seen for the first time. Otherwise, it outputs a Huffman codeword.
+
+
+CORRECT OUTPUT:
+
+Symbol: I, Frequency: 3, Code: 10011
+Symbol: n, Frequency: 8, Code: 00110
+Symbol: , Frequency: 36, Code: 00000
+Symbol: t, Frequency: 14, Code: 00011
+Symbol: h, Frequency: 8, Code: 01000
+Symbol: e, Frequency: 22, Code: 00001
+Symbol: c, Frequency: 7, Code: 01100
+Symbol: o, Frequency: 15, Code: 00010
+Symbol: d, Frequency: 9, Code: 00101
+Symbol: i, Frequency: 8, Code: 00111
+Symbol: g, Frequency: 2, Code: 10101
+Symbol: p, Frequency: 5, Code: 01110
+Symbol: r, Frequency: 7, Code: 01011
+Symbol: s, Frequency: 11, Code: 00100
+Symbol: ,, Frequency: 4, Code: 10001
+Symbol: f, Frequency: 8, Code: 01001
+Symbol: x, Frequency: 2, Code: 10100
+Symbol: a, Frequency: 7, Code: 01101
+Symbol: m, Frequency: 5, Code: 01111
+Symbol: l, Frequency: 4, Code: 10000
+Symbol: u, Frequency: 7, Code: 01010
+Symbol: w, Frequency: 3, Code: 10010
+Symbol: A, Frequency: 1, Code: 11101
+Symbol: S, Frequency: 1, Code: 11001
+Symbol: C, Frequency: 1, Code: 11100
+Symbol: y, Frequency: 1, Code: 11000
+Symbol: b, Frequency: 2, Code: 10110
+Symbol: ., Frequency: 2, Code: 10111
+Symbol: O, Frequency: 1, Code: 11010
+Symbol: H, Frequency: 1, Code: 11011
